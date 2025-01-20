@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   flask-app:
-    image: amranii007/flask-app:latest  
+    image: amranii007/swarm-project-flask-app
     ports:
       - "5000:5000"
     environment:
